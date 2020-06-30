@@ -1,0 +1,609 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-06-15 13:33:08
+ * @LastEditTime: 2020-06-19 12:43:41
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \immo\index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>首页</title>
+  <link rel="stylesheet" href="./css/all.css" />
+  <link rel="stylesheet" href="./css/style24.css" />
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./lib/echarts/echarts.min.js"></script>
+  <script src="./lib/hightCharts/hightChart.js"></script>
+  <script src="./lib/hightCharts/highCharts3D.js"></script>
+</head>
+
+<body>
+  <div class="I124_content">
+    <!-- 头部 -->
+    <header class="I124_head">
+      <div class="I124_h_blank I124_h_blank_l">
+        <div>
+          <div class="I124_memu_img"><img src="./imgs/menu.png" alt=""></div>
+          <div class="I124_memu_font">菜单</div>
+          <div class="H124_menu">
+            <ul>
+              <li>
+                <div class="H124_menu_par">下一个路由</div>
+                <div class="H124_menu_child">
+                  <div class="H124_menu_guide">下一个路由</div>
+                  <div class="H124_menu_c_list">
+                    <ul>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="H124_menu_par">下一个路由</div>
+                <div class="H124_menu_child">
+                  <div class="H124_menu_guide">下一个路由</div>
+                  <div class="H124_menu_c_list">
+                    <ul>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="H124_menu_par">下一个路由</div>
+                <div class="H124_menu_child">
+                  <div class="H124_menu_guide">下一个路由</div>
+                  <div class="H124_menu_c_list">
+                    <ul>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="H124_menu_par">下一个路由</div>
+                <div class="H124_menu_child">
+                  <div class="H124_menu_guide">下一个路由</div>
+                  <div class="H124_menu_c_list">
+                    <ul>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="H124_menu_par">下一个路由</div>
+                <div class="H124_menu_child">
+                  <div class="H124_menu_guide">下一个路由</div>
+                  <div class="H124_menu_c_list">
+                    <ul>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                      <li>
+                        <a>下一个路由</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <h1 class="I124_title">
+        昆山市公安局科技装备资产管理平台
+      </h1>
+      <div class="I124_h_blank I124_h_blank_r">
+        <div>
+          <div><img src="./imgs/user.png" alt=""><img src="./imgs/out.png" alt=""></div>
+          <div>2019-09-11 13:22:11</div>
+          <div>莫里索</div>
+        </div>
+      </div>
+    </header>
+    <!-- 身体 -->
+    <div class="I124_body">
+      <!-- 左部分 -->
+      <div class="I124_left">
+        <div class="I124_l_top">
+          <div class="I124_sub_title">
+            <!-- 由于需要渐变色效果所以加个div -->
+            <div class="I124_in_sub">
+              SIM卡到期提醒
+            </div>
+          </div>
+          <div class="I124_table_content">
+          
+            <table cellspacing="0">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>电话号码</th>
+                  <th>购买时间</th>
+                  <th>到期时间</th>
+                </tr>
+              </thead>
+            </table>
+            <div class="I124_table_wrap">
+            <table cellspacing="0">
+              <tbody>
+                <tr>
+                  <td>
+                    <div>
+                      1
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      2
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      3
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      3
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      3
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      3
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        </div>
+        <div class="I124_l_middle">
+          <div class="I124_sub_title">
+            <!-- 由于需要渐变色效果所以加个div -->
+            <div class="I124_in_sub">
+              警务通
+            </div>
+            <div class="I124_jwt_choice">
+              <div class="I124_jwt_bar I124_jwt_bar_active">按年份</div>
+              <div class="I124_divice">|</div>
+              <div class="I124_jwt_bar">按品牌</div>
+            </div>
+          </div>
+          <div class="I124_l_m_chart" id="jwt_chart"></div>
+        </div>
+        <div class="I124_l_bottom">
+          <div class="I124_sub_title">
+            <!-- 由于需要渐变色效果所以加个div -->
+            <div class="I124_in_sub">
+              库存情况
+            </div>
+          </div>
+          <div class="I124_kcqk_chart" id="kcqk_chart"></div>
+        </div>
+      </div>
+      <!-- 中间 -->
+      <div class="I124_middle">
+        <div class="I124_m_top">
+          <div class="I124_sub_title">
+            <!-- 由于需要渐变色效果所以加个div -->
+            <div class="I124_in_sub">
+              资产总数
+            </div>
+          </div>
+          <div class="I124_m_top_main">
+            <div class="I124_trans">
+              <div class="I124_earth_wrap">
+                <div class="I124_earth"></div>
+              </div>
+              <div class="I124_t_in_block">
+                <div>
+                  <p>20208</p>
+                  <p>2017年</p>
+                </div>
+              </div>
+              <div class="I124_t_in_block">
+                <div>
+                  <p>20208</p>
+                  <p>2017年</p>
+                </div>
+              </div>
+              <div class="I124_t_in_block">
+                <div>
+                  <p>20208</p>
+                  <p>2017年</p>
+                </div>
+              </div>
+              <div class="I124_t_in_block">
+                <div>
+                  <p>20208</p>
+                  <p>2017年</p>
+                </div>
+              </div>
+              <div class="I124_t_in_block">
+                <div>
+                  <p>20208</p>
+                  <p>2017年</p>
+                </div>
+              </div>
+              <div class="I124_t_in_block">
+                <div>
+                  <p>20208</p>
+                  <p>2017年</p>
+                </div>
+              </div>
+              <div class="I124_t_in_block">
+                <div>
+                  <p>20208</p>
+                  <p>2017年</p>
+                </div>
+              </div>
+              <div class="I124_t_in_block">
+                <div>
+                  <p>20208</p>
+                  <p>2017年</p>
+                </div>
+              </div>
+              <div class="I124_t_in_block">
+                <div>
+                  <p>20208</p>
+                  <p>2017年</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="I124_m_data">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+          </div>
+        </div>
+        <div class="I124_m_bottom">
+          <div class="I124_m_b_top">
+            <div>
+              <div class="I124_con">
+                <img src="./imgs/phone.png" alt="" />
+              </div>
+              <div class="I124_con_name">警务通</div>
+              <div class="I124_m_b_divide">
+                <img src="./imgs/index_divide.png" alt="" />
+              </div>
+              <div class="I124_m_b_num">24242</div>
+            </div>
+            <div>
+              <div class="I124_con">
+                <img src="./imgs/tfcard.png" alt="" />
+              </div>
+              <div class="I124_con_name">TF卡</div>
+              <div class="I124_m_b_divide">
+                <img src="./imgs/index_divide.png" alt="" />
+              </div>
+              <div class="I124_m_b_num">24242</div>
+            </div>
+            <div>
+              <div class="I124_con I124_con_thin">
+                <img src="./imgs/uPan.png" alt="" />
+              </div>
+              <div class="I124_con_name">安全U盘</div>
+              <div class="I124_m_b_divide">
+                <img src="./imgs/index_divide.png" alt="" />
+              </div>
+              <div class="I124_m_b_num">24242</div>
+            </div>
+          </div>
+          <div class="I124_m_b_middle">
+            <div>
+              <div class="I124_small_title">
+                <div>
+                  数字证书
+                </div>
+              </div>
+              <div class="I124_d_chart" id="pie_chart1"></div>
+            </div>
+            <div>
+              <div class="I124_small_title">
+                <div>
+                  电台
+                </div>
+              </div>
+              <div class="I124_d_chart" id="pie_chart2"></div>
+            </div>
+            <div>
+              <div class="I124_small_title">
+                <div>
+                  办公电脑
+                </div>
+              </div>
+              <div class="I124_d_chart" id="pie_chart3"></div>
+            </div>
+          </div>
+          <div class="I124_m_b_bottom">
+            <div>
+              <div class="I124_small_title">
+                <div>
+                  机房设备
+                </div>
+              </div>
+              <div class="I124_d_chart I124_jfsb_chart_wrap">
+                <div id="jfsb_chart" class="I124_jfsb_chart"></div>
+              </div>
+            </div>
+            <div>
+              <div class="I124_small_title">
+                <div>
+                  SIM卡
+                </div>
+              </div>
+              <div class="I124_d_chart I124_d_chart_SIM">
+                <div>
+                  <div class="I124_chart_text">
+                    <span>电信</span><span>100</span>
+                  </div>
+                  <div class="I124_line_chart" id="line_chart1"></div>
+                </div>
+                <div>
+                  <div class="I124_chart_text">
+                    <span>联通</span><span>100</span>
+                  </div>
+                  <div class="I124_line_chart" id="line_chart2"></div>
+                </div>
+                <div>
+                  <div class="I124_chart_text">
+                    <span>移动</span><span>100</span>
+                  </div>
+                  <div class="I124_line_chart" id="line_chart3"></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="I124_small_title">
+                <div>
+                  执法仪
+                </div>
+              </div>
+              <div class="I124_d_chart I124_3D_chart" id="I124_3D_chart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 右边 -->
+      <div class="I124_right">
+        <div class="I124_r_top">
+          <div class="I124_sub_title">
+            <!-- 由于需要渐变色效果所以加个div -->
+            <div class="I124_in_sub">
+              资产维修情况
+            </div>
+          </div>
+          <div class="I124_table_content">
+          
+            <table cellspacing="0">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>电话号码</th>
+                  <th>购买时间</th>
+                  <th>到期时间</th>
+                </tr>
+              </thead>
+            </table>
+            <div class="I124_table_wrap I124_table_wrap2">
+            <table cellspacing="0">
+              <tbody>
+                <tr>
+                  <td>
+                    <div>
+                      1
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      2
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      3
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      3
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      3
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div>
+                      3
+                    </div>
+                  </td>
+                  <td>13232323232</td>
+                  <td>2020-05-11</td>
+                  <td>2020-05-11</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        </div>
+        <div class="I124_r_bottom">
+          <div class="I124_sub_title">
+            <!-- 由于需要渐变色效果所以加个div -->
+            <div class="I124_in_sub">
+              办公电脑
+            </div>
+          </div>
+          <div class="I124_r_b_bar">
+            <div class="I124_right_small_title">
+              <h3>按品牌</h3>
+            </div>
+            <div class="I124_circle_chart_wrap">
+              <div class="I124_circle_chart I124_circle_chart1">
+                <div id="I124_circle_chart1">
+
+                </div>
+              </div>
+              <div class="I124_circle_chart I124_circle_chart2">
+                <div id="I124_circle_chart2">
+
+                </div>
+              </div>
+              <div class="I124_circle_chart I124_circle_chart3">
+                <div id="I124_circle_chart3">
+
+                </div>
+              </div>
+              <div class="I124_circle_chart I124_circle_chart4">
+                <div id="I124_circle_chart4">
+
+                </div>
+              </div>
+              <div class="I124_circle_line I124_circle_line1">
+                <img src="./imgs/line_up.png" alt="" />
+              </div>
+              <div class="I124_circle_line I124_circle_line2">
+                <img src="./imgs/line_down.png" alt="" />
+              </div>
+              <div class="I124_circle_line I124_circle_line3">
+                <img src="./imgs/line_up.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="I124_r_b_bar">
+            <div class="I124_right_small_title">
+              <h3>按年份</h3>
+            </div>
+            <div class="I124_r_b_chart_wrap">
+              <div id="anf_chart">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
